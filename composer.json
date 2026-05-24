@@ -70,7 +70,9 @@
         ],
         "pre-package-uninstall": [
             "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
-        ]
+        ],
+        "format": "prettier --write \"**/*.php\"",
+        "format:check": "prettier --check \"**/*.php\""
     },
     "extra": {
         "laravel": {

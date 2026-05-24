@@ -1,0 +1,12 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment and logs
+.env
+*.log
+
+# Build or IDE files
+.phpunit.cache/
+.idea/
+.vscode/
